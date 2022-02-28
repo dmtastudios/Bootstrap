@@ -1,0 +1,28 @@
+body {
+
+}
+
+#showcase {
+    background-image: url(Images/header.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media (min-width: 922px) {
+    .card-text {
+        height: 110px;
+    }
+}
+@media (min-width: 1200px) {
+    .card-text {
+        height: 90px;
+    }
+}
+@media (min-width: 1400px) {
+    .card-text {
+        height: 70px;
+    }
+}
+
